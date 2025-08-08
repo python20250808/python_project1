@@ -1,0 +1,5 @@
+absender = input("Bitte tragen sie Ihren namen ein\n")
+print("")
+empfänger = input("Bitte tragen Sie den Namen ein\n")
+print("")
+print(f"Hallo {empfänger},\ndiesen Brief sendet dir {absender} ...\nViele Grüße \n{absender}")
