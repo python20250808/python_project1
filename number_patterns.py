@@ -167,3 +167,26 @@ def number_pattern11(line):
         print("\n")
 
 #number_pattern11(line)
+
+def number_pattern12(line):
+    for x in range(line):
+        i = 0
+        for _ in range(line - x - 1):
+            print(" ", end = " ")
+        for _ in range(x + 1):
+            i += 1
+            print(i, end=" ")
+        print("\n")
+    for x in range(line, 0, -1):
+        i = 0
+        for _ in range(line - x):
+            print(" ", end=" ")
+        for _ in range(x):
+                i += 1
+                if x != line:
+                    print(i, end=" ")
+        if x != line:
+            print("\n")
+
+
+#number_pattern12(line)
